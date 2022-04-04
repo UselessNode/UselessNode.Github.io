@@ -1,11 +1,12 @@
 html {
     color: lightgoldenrodyellow;
     background-color: #687ced;
+    display: block;
 }
 .headerText {
 	text-align:center;
 	font-size: 42pt;
-	font-family: 'Merriweather';
+	font-family: monospace;
 	font-weight:900;
 	background-color: #3f51b5;
 }
@@ -18,3 +19,14 @@ hr {
 	font-family:'Montserrat Alternates';
 	padding: 15px;
 }
+button {
+	font-size: 24pt;
+	font-family: monospace;
+	}
+input {
+	font-size: 24pt;
+	font-family: monospace;
+	}
+.controls {
+	text-align: center;
+	}
